@@ -1,0 +1,100 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8_hvt and Circuit 2 cell sky130_fd_pr__pfet_01v8_hvt are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_hvt is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_hvt is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8_hvt     |Circuit 2: sky130_fd_pr__pfet_01v8_hvt     
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8_hvt and sky130_fd_pr__pfet_01v8_hvt are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__mux4_1         |Circuit 2: sky130_fd_sc_hd__mux4_1         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (13)           |sky130_fd_pr__pfet_01v8_hvt (13)           
+sky130_fd_pr__nfet_01v8 (13)               |sky130_fd_pr__nfet_01v8 (13)               
+Number of devices: 26                      |Number of devices: 26                      
+Number of nets: 24                         |Number of nets: 24                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__mux4_1         |Circuit 2: sky130_fd_sc_hd__mux4_1         
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+A1                                         |A1                                         
+A3                                         |A3                                         
+A0                                         |A0                                         
+A2                                         |A2                                         
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+S1                                         |S1                                         
+S0                                         |S0                                         
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__mux4_1 and sky130_fd_sc_hd__mux4_1 are equivalent.
+
+Subcircuit summary:
+Circuit 1: ZMUX4                           |Circuit 2: ZMUX4                           
+-------------------------------------------|-------------------------------------------
+sky130_fd_sc_hd__mux4_1 (2)                |sky130_fd_sc_hd__mux4_1 (2)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 14                         |Number of nets: 14                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: ZMUX4                           |Circuit 2: ZMUX4                           
+-------------------------------------------|-------------------------------------------
+GND                                        |GND                                        
+VDD                                        |VDD                                        
+y0                                         |y0                                         
+y1                                         |y1                                         
+Z3_0                                       |Z3_0                                       
+Z3_1                                       |Z3_1                                       
+Z2_0                                       |Z2_0                                       
+Z2_1                                       |Z2_1                                       
+Z1_0                                       |Z1_0                                       
+Z1_1                                       |Z1_1                                       
+Z0_0                                       |Z0_0                                       
+Z0_1                                       |Z0_1                                       
+Zo_0                                       |Zo_0                                       
+Zo_1                                       |Zo_1                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes ZMUX4 and ZMUX4 are equivalent.
+
+Final result: Circuits match uniquely.
+.
+-----------------------------------------
+Finish comparing spice netlist of ZMUX4 between:
+Circuit 1: /home/bob/projects/team/xschem2/ZMUX4.spice (last modified: 2026-06-18 23:55:24)
+Circuit 2: /home/bob/projects/team/magic2/ZMUX4.spice (last modified: 2026-06-18 23:52:38)
+Final result: Circuits match uniquely!
+Report file: ZMUX4.log
+-----------------------------------------
