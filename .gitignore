@@ -1,0 +1,6 @@
+# Simulation / tool scratch files
+*.raw
+!magic/*.rcx.raw
+*.log
+!lvs/reports/*.log
+.magicrc
